@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+
+## Author : Aditya Shakya (adi1090x)
+## Mail : adi1090x@gmail.com
+## browser : @adi1090x
+## music : @adi1090x
+
+
+#Options
+theme="-theme themes/menu.rasi"
+drun="-show drun -display-drun Applications -drun-display-format {name}"
+
+# Launch Rofi
+rofi -no-lazy-grab $theme $drun
+
+
+# More Options
+# -fullscreen \
+
+# Theming help
+# color window = background, border, separator
+# color normal = background, foreground, background-alt, highlight-background, highlight-foreground
+# color active = background, foreground, background-alt, highlight-background, highlight-foreground
+# color urgent = background, foreground, background-alt, highlight-background, highlight-foreground
